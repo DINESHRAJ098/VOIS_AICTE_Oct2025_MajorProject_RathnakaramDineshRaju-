@@ -1,0 +1,80 @@
+# Netflix Content Trends Analysis for Strategic Recommendations
+
+**Repository for the VOIS_AICTE_Oct2025_MajorProject by [Your Name]**
+
+---
+
+## 1. Introduction & Problem Statement
+
+Netflix is a global streaming giant, but in a market with fierce competition from Disney+, Amazon Prime, and others, strategic content decisions are crucial. This project analyzes the Netflix dataset to uncover trends in its content library and provide actionable recommendations.
+
+The primary goal is to answer the question: **What content should Netflix focus on next?** We do this by analyzing:
+- The distribution of **Movies vs. TV Shows** over time.
+- The most **popular genres** and their growth.
+- The **top content-producing countries** to identify key markets.
+
+The insights from this analysis are intended for Netflix's content acquisition, production, and marketing teams to make data-driven decisions.
+
+---
+
+## 2. Dataset
+
+The analysis is based on the "Netflix Movies and TV Shows" dataset, which contains information on over 7,700 unique titles available on the platform as of 2021.
+
+- **Source:** The dataset was sourced from Kaggle.
+- **Content:** It includes attributes like title, category (Movie/TV Show), director, cast, country of origin, release date, rating, duration, and genre.
+
+---
+
+## 3. Technology Stack
+
+This project was developed using the following technologies:
+
+- **Programming Language:** Python 3
+- **Libraries for Data Analysis:**
+    - **Pandas:** For data manipulation and cleaning.
+    - **NumPy:** For numerical operations.
+- **Libraries for Data Visualization:**
+    - **Matplotlib:** For creating static plots.
+    - **Seaborn:** For creating more advanced and aesthetically pleasing statistical plots.
+    - **Plotly:** For interactive visualizations like the choropleth map and sunburst chart.
+- **Development Environment:** Jupyter Notebook / Google Colab
+
+---
+
+## 4. Project Structure
+
+The repository is organized as follows:
+## 5. Setup and Installation
+
+To run this analysis on your local machine, follow these steps:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)
+    cd [repository-folder-name]
+    ```
+2.  **Install the required libraries:**
+    ```bash
+    pip install pandas numpy matplotlib seaborn plotly
+    ```
+
+---
+
+## 6. How to Use
+
+Open the `Netflix_Analysis.ipynb` file in a Jupyter Notebook or Google Colab environment. You can run the cells sequentially to see the entire process, from data loading and cleaning to the generation of each visualization.
+
+---
+
+## 7. Key Findings & Visualizations
+
+Our analysis revealed several key insights:
+
+- **Movies Dominate, but TV Shows are Rising:** While movies make up nearly 70% of the library, the addition of new TV shows has accelerated since 2016, pointing to a strategy focused on subscriber retention.
+
+- **Top Genres are Global:** Dramas, Comedies, and International Movies are the most common genres, indicating a strong demand for universally appealing content.
+
+- **US and India are Key Markets:** The United States is the largest content producer, but India is a clear second, highlighting its strategic importance for both content acquisition and market growth.
+
+---
